@@ -1,0 +1,1 @@
+$(function(){$(".countnm").each(function(){$(this).prop("Counter",0).animate({Counter:$(this).text()},{duration:5000,easing:"swing",step:function(a){$(this).text(Math.ceil(a))}})})});

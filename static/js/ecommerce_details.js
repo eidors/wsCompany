@@ -1,0 +1,1 @@
+$(function(){$(".icolors li").on("click",function(){$(".icolors li").removeClass("active");$(this).addClass("active")});$(".photos-item").on("click",function(){var a=$(this).children().attr("src");$("#product-image").attr("src",a);$(".photos-item").removeClass("item-active");$(this).addClass("item-active")})});

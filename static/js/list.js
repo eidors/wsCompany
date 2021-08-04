@@ -1,0 +1,1 @@
+$(function(){$(".inner-user-div").slimScroll({height:"342px"})});

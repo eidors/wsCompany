@@ -1,0 +1,1 @@
+$(function(){$("#print1").click(function(){var b="iframe";var a=b=="popup";var c={mode:b,popClose:a};$("section.printableArea").printArea(c)});$("#print2").click(function(){var b="iframe";var a=b=="popup";var c={mode:b,popClose:a};$("section.printableArea").printArea(c)})});

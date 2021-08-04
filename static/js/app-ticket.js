@@ -1,0 +1,1 @@
+$(function(){$(".donut").peity("donut");$(".bar").peity("bar")});
